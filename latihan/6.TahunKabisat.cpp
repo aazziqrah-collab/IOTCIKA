@@ -4,7 +4,7 @@ bool isleapYear (int year) {
   // Tahun kabisat jika:
   // 1. habis dibagi 4 tetapi tidak habis dibagi 100, ATAU
   // 2. Habis dibagi 400
-  return (year % 4 == 0 && year % 100 != 0) \|| (year % 400 == 0);
+  return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
 int main () {
   int year;
