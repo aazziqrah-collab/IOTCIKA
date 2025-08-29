@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
  int main() {
@@ -25,4 +26,4 @@ int max = arr[0];
 int min = arr[0];
 
 // menacari nilai maxium dan minimum
-for (int i = 
+for (int i = 1; i <
