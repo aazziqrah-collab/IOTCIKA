@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
 #include <algorithm>
-using namspaces std;
+using namespace std;
 
 int main() {
     string teks, asli;
     cout << "Masukkan sebuah kata/kalimat: ";
     getline(cin, teks);
-    asli teks;
+    asli = teks;
 
     teks.erase(remove(teks,begin(), teks.end()), teks.end());
     transform(teks.begin(), teks.end(), teks.begin(), ::tolower);
