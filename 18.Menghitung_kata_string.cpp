@@ -10,7 +10,7 @@ int main() {
 
     stringstream ss (teks);
     string kata;
-    int jumlah = -1;
+    int jumlah = 0;
     while (ss >> kata) {
          jumlah++;
     }
