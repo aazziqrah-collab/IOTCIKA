@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-  string teks1, tekas2, hasil;
+  string teks1, teks2, hasil;
 
   cout << "Masukkan string pertama: "; getline(cin, teks1);
   cout << "Masukkan string kedua: "; getline(cin, teks2);
