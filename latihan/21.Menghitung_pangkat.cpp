@@ -10,12 +10,12 @@ int hitungPangkat(int basis, int eksponen) {
 }
 
 int main () {
-  int a, b, c;
+  int a, b;
   cout << "Masukkan bilangan basis: ";
   cin >> a;
   cout << "Masukkan bilnangan pangkat: ";
   cin >> c;
-  cout << a << "^ << b << " = " << hitungPangkat(a, b) << endll
+  cout << a << " ^ " << b << " = " << hitungPangkat(a, b) << endl;
 
   return 0;
 }
