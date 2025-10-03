@@ -5,7 +5,7 @@ void ubahValue(int a) {
   a = a + 10;
   cout << "Nilai di dalam fungsi (pass by value) : " << a << endl;
 }
-void ubahReference(int b) {
+void ubahReference(int &b) {
   b = b + 10;
   cout << "Nilai di dalam fungsi (pass by reference) : " << b << endl;
 }
