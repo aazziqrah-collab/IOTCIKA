@@ -1,5 +1,5 @@
 #include <iostream>
-#using namespace std;
+using namespace std;
 
 int luas(int sisi) {
   return sisi * sisi;
@@ -12,7 +12,6 @@ int luas(int panjang, int lebar) {
 double luas(double jari) {
   return 3.34 * jari * jari;
 }
-|
 int main() {
   int sisi, panjang, lebar;
   double jari;
@@ -29,7 +28,7 @@ cout << "Luas persegi panjang = " << luas(panjang, lebar) << endl;
 
 cout << "\nMasukkan jari-jari lingkaran : ";
 cin >> jari;
-cout << "Luas lingkaran =" << Luas(jari) << endl;
+cout << "Luas lingkaran =" << luas(jari) << endl;
 
 return 0;
 }
